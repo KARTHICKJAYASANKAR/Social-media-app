@@ -17,7 +17,7 @@ const {MONGOURI} = require('./config/keys')
 //     console.log("err connecting",err)
 // })
 mongoose.connect("mongodb+srv://karthickj452:hgqI1faVJKYQNrMt@cluster0.mpcatyk.mongodb.net/?retryWrites=true&w=majority",{useUnifiedTopology:true,useNewUrlParser:true,useFindAndModify:false}).then(()=>{
-    console.log("Connected")
+    console.log(" Database Connected successfully..!")
 })
 
 
